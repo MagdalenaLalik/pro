@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    font-size: 25px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: mediumvioletred;
+}
+
+ul, ol { 
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+blockquote {
+    font-size: initial;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    color: black;
+    border-left: 5px solid blue;
+    padding-left: 15px;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: darkorchid;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: hotpink;
+}
+
+ul li a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: darkmagenta;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: midnightblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(201, 96, 228);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(143, 238, 222);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: rgb(117, 176, 224);
+    color: white;
+}
+
+table th, table td {
+    padding: 15px;
+    border-bottom: 1px solid #8c00ff;
+}
+
+table th {
+    text-align: center;
+}
+
+table tbody tr:hover {
+    background-color: rgb(210, 124, 236);
+}
+
+table img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin:  0 auto;
+}
+
+table a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+.led-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #250135;
+    margin: 0;
+}
+
+.led {
+    width: 20px;
+    height: 100px;
+    background: linear-gradient(to bottom, #ffffff, #000);
+    border-radius: 10px;
+    margin: 0 10px;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 20px rgb(101, 26, 151);
+    }
+    to {
+        box-shadow: 0 0 5px rgba(226, 66, 205, 0.8);
+    }
+}
